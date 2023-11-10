@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.container{
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+.header{
+    background-color: #8000FF;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__name{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo-and-name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.logo-and-name img{
+    width: 140px;
+    height: 60px; 
+}
+.menu{
+    display: flex;
+    gap: 71px;
+}
+.menu a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu a:hover{
+    color: #d0a1ff;
+}
+.main{
+    background: #E8D0FF;
+}
+.main__first-page{
+    height: 700px;
+    position: relative;
+}
+.main__first-page h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 150px;
+    margin-bottom: 26px;
+}
+.main__first-page p{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 52px;
+}
+.main__first-page button{
+    width: 300px;
+    height: 60px;   
+    border-radius: 10px;
+    background: #8000FF;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.main__first-page button:hover{
+    background: #7300e6;
+}
+.main__first-page img{
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    width: 528px;
+    height: 528px;
+}
+.mem-day{
+    display: flex;   
+    align-items: center;
+    gap: 108px;
+}
+.mem-day p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.mem-day img{
+    width: 568px;
+    height: 700px; 
+
+}
+.memes__line1, .memes__line2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+.memes__line1{
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+.memes__line2{
+    padding-bottom: 25px;
+}
+.white-box{
+    width: 600px;
+    height: 300px; 
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mem1{
+    height: 100%;
+}
+.mem2{
+    height: 100%;
+}
+.mem3{
+    width: 100%;
+}
+.mem4{
+    width: 100%;
+}
+.mem5{
+    height: 100%;
+}
+.mem6{
+    width: 100%;
+}
+.footer{
+    background: #CB97FF;
+}
+.footer .container{
+    min-height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
