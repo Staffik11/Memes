@@ -4,6 +4,7 @@
     padding: 0px 20px;
     margin: 0px auto;
 }
+/* шапен */
 .header{
     background-color: #8000FF;
 }
@@ -26,7 +27,6 @@
     gap: 16px;
 }
 .logo-and-name img{
-    width: 140px;
     height: 60px; 
 }
 .menu{
@@ -44,6 +44,20 @@
 .menu a:hover{
     color: #d0a1ff;
 }
+@media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .logo-and-name img{
+        height: 50px; 
+    }
+    .header__name {
+        font-size: 24px;
+    }
+}
+/* основная страница */
 .main{
     background: #E8D0FF;
 }
@@ -73,7 +87,7 @@
 .main__first-page button{
     width: 300px;
     height: 60px;   
-    border-radius: 10px;
+    border-radius: 15px;
     background: #8000FF;
     color: #FFF;
     font-family: Inter;
@@ -91,8 +105,57 @@
     top: 45px;
     right: 5px;
     width: 528px;
-    height: 528px;
 }
+@media (max-width: 1170px) {
+    .main__first-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .main__first-page img {
+        width: 100%;
+        position: static;
+        max-width: 500px;
+    }
+    .main__first-page{
+        min-height: 700px;
+        height: auto;
+    }
+    .main__first-page h1{
+        font-size: 80px;
+        padding-top: 100px;
+    }
+    .main__first-page p{
+        font-size: 50px;
+        text-align: center;
+    }
+    .main__first-page button{
+        width: 400px;
+        height: 80px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+}
+@media (max-width: 600px) {
+    .main__first-page h1{
+        font-size: 60px;
+        padding-top: 60px;
+    }
+    .main__first-page p{
+        font-size: 36px;
+        text-align: center;
+    }
+    .main__first-page button{
+        width: 100%;
+        max-width: 400px;
+        height: 70px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}
+/* мемес дня */
 .mem-day{
     display: flex;   
     align-items: center;
@@ -111,6 +174,7 @@
     height: 700px; 
 
 }
+/* мемы */
 .memes__line1, .memes__line2{
     display: flex;
     justify-content: space-between;
@@ -150,6 +214,7 @@
 .mem6{
     width: 100%;
 }
+/* подвал(а где дети?) */
 .footer{
     background: #CB97FF;
 }
@@ -166,3 +231,4 @@
     font-weight: 400;
     line-height: normal;
 }
+
