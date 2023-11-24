@@ -170,9 +170,20 @@
     line-height: normal;
 }
 .mem-day img{
-    width: 568px;
-    height: 700px; 
-
+    max-width: 568px;
+    width: 100%;
+}
+@media (max-width: 1070px) {
+    .mem-day{
+        flex-direction: column-reverse;
+        gap: 70px;
+    }
+}
+@media (max-width: 440px) {
+    .mem-day p{
+        font-size: 38px;
+        text-align: center;
+    }
 }
 /* мемы */
 .memes__line1, .memes__line2{
@@ -189,7 +200,7 @@
     padding-bottom: 25px;
 }
 .white-box{
-    width: 600px;
+    width: 300px;
     height: 300px; 
     background: #FFF;
     display: flex;
@@ -213,6 +224,16 @@
 }
 .mem6{
     width: 100%;
+}
+@media (max-width: 1200px) {
+    .memes__line1, .memes__line2{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+    }
+    .memes__line1{
+        margin-bottom: 70px;
+    }
 }
 /* подвал(а где дети?) */
 .footer{
